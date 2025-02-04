@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instalaciones Bouazzouny S.L.</title>
+  <!-- Fuente con toque árabe -->
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+  <style>
+    /* Estilos globales */
+    body {
+      margin: 0;
+      font-family: 'Amiri', serif;
+      /* Fondo con textura sutil inspirada en motivos árabes */
+      background: #f9f1e7 url('https://www.transparenttextures.com/patterns/arabesque.png') repeat;
+      color: #333;
+    }
+    
+    header {
+      padding: 30px;
+      text-align: center;
+      color: #fff;
+      /* Fondo degradado con sobreposición de patrón morisco */
+      background: linear-gradient(rgba(139,69,19,0.85), rgba(139,69,19,0.85)), url('https://www.transparenttextures.com/patterns/arabesque.png');
+      background-size: cover;
+      border-bottom: 5px solid #D2B48C;
+    }
+    
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    }
+    
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #D2B48C;
+    }
+    
+    nav a {
+      color: #fff;
+      padding: 15px 25px;
+      text-decoration: none;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+      transition: background 0.3s;
+    }
+    
+    nav a:hover {
+      background: #8B4513;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.95);
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+      border: 2px solid #D2B48C;
+      border-radius: 10px;
+    }
+    
+    /* Secciones con fondo y borde decorativo estilo morisco */
+    .section {
+      margin-bottom: 50px;
+      padding: 20px;
+      /* Fondo sutil con textura (puedes cambiar la imagen) */
+      background: url('https://www.transparenttextures.com/patterns/asfalt-light.png') repeat;
+      border: 5px double #8B4513;
+      border-radius: 8px;
+      position: relative;
+    }
+    
+    .section h2 {
+      font-size: 2em;
+      color: #8B4513;
+      border-bottom: 2px solid #D2B48C;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    
+    /* Borde decorativo con patrón inspirado en mosaicos marroquíes */
+    .arab-pattern {
+      border: 5px solid transparent;
+      border-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/moroccan_tiles.png') 30 round;
+      padding: 20px;
+    }
+    
+    /* Línea decorativa para separar contenidos */
+    .decorative-line {
+      width: 100%;
+      height: 10px;
+      background: url('https://www.transparenttextures.com/patterns/arabesque.png') repeat-x;
+      margin: 20px 0;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #8B4513;
+      color: #fff;
+      border-top: 5px solid #D2B48C;
+    }
+    
+    /* Responsive */
+    @media(max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Instalaciones Bouazzouny S.L.</h1>
+  </header>
+  
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  
+  <div class="container">
+    <section id="inicio" class="section arab-pattern">
+      <h2>Bienvenidos</h2>
+      <p>En Instalaciones Bouazzouny S.L. combinamos tecnología avanzada con el arte y la tradición morisca. Nuestro compromiso es ofrecerte instalaciones de red de alta calidad, impregnadas de la elegancia y el detalle característicos de la decoración de moros y Marruecos.</p>
+      <div class="decorative-line"></div>
+    </section>
+    
+    <section id="servicios" class="section arab-pattern">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Instalación y configuración de redes LAN y WAN.</li>
+        <li>Mantenimiento preventivo y correctivo de infraestructuras.</li>
+        <li>Implementación de sistemas de seguridad en redes.</li>
+        <li>Consultoría en proyectos de integración tecnológica.</li>
+      </ul>
+      <div class="decorative-line"></div>
+    </section>
+    
+    <section id="contacto" class="section arab-pattern">
+      <h2>Contacto</h2>
+      <p>Para más información sobre nuestros servicios o para solicitar una visita técnica, contáctanos:</p>
+      <p>Email: <a href="mailto:info@instalacionesbouazzouny.com">info@instalacionesbouazzouny.com</a></p>
+      <p>Teléfono: +34 123 456 789</p>
+      <p>Dirección: Calle de la Innovación, 123, Ciudad, País</p>
+      <div class="decorative-line"></div>
+    </section>
+  </div>
+  
+  <footer>
+    <p>&copy; 2025 Instalaciones Bouazzouny S.L. - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
